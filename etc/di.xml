@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Framework\Cache\InvalidateLogger" type="JustBetter\DisableSpamInLog\Magento\Framework\Cache\InvalidateLogger"/>
+    <preference for="Magento\Framework\Logger\Handler\System" type="JustBetter\DisableSpamInLog\Magento\Framework\Logger\Handler\System"/>
+    <preference for="Magento\Framework\Logger\Handler\Exception" type="JustBetter\DisableSpamInLog\Magento\Framework\Logger\Handler\Exception"/>
+    <preference for="Magento\Framework\Logger\Handler\Debug" type="JustBetter\DisableSpamInLog\Magento\Framework\Logger\Handler\Debug"/>
+</config>

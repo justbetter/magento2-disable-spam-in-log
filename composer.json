@@ -1,0 +1,23 @@
+{
+  "name": "justbetter/magento2-disable-spam-in-log",
+  "description": "Magento 2 disables log lines with certain log level",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0",
+    "magento/framework": "*"
+  },
+  "authors": [
+    {
+      "name": "Rakhal Imming",
+      "email": "rakhal@justbetter.nl",
+      "homepage": "https://justbetter.nl",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "JustBetter\\DisableSpamInLog\\": "" },
+    "files": [ "registration.php" ]
+  }
+}
