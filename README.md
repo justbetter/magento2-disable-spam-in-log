@@ -16,6 +16,9 @@ The module is tested on magento version 2.2.x
 ## Ideas, bugs or suggestions?
 Please create a [issue](https://github.com/justbetter/magento2-disable-spam-in-log/issues) or a [pull request](https://github.com/justbetter/magento2-disable-spam-in-log/pulls).
 
+## Abous Us
+We're a innovative development agency from The Netherlands building awesome websites, webshops and web applications with Laravel and Magento. Check out our website [justbetter.nl](https://justbetter.nl) and our open source projects at [GitHub](https://github.com/justbetter)
+
 ## License
 [MIT](LICENSE)
 
